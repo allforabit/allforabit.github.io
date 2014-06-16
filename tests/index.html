@@ -3,21 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Allforabit Tests</title>
+    <title>Testember Tests</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script>
-      window.ENV = {{ENV}};
-      document.write('<base href="' + ENV.rootURL + '" />');
-    </script>
+    {{BASE_TAG}}
 
-    <link rel="stylesheet" href="assets/app.css">
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/testember.css">
     <link rel="stylesheet" href="assets/qunit.css">
-
-    <script src="assets/app.js"></script>
-    <script src="assets/tests.js"></script>
-
     <style>
       #ember-testing-container {
         position: absolute;
@@ -38,9 +32,17 @@
   <body>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
+
     <script>
-      require('allforabit/tests/test-helper');
-      require('allforabit/tests/test-loader');
+      window.ENV = {{ENV}};
     </script>
+    <script src="assets/qunit.js"></script>
+    <script src="assets/qunit-notifications.js"></script>
+    <script src="assets/testember.js"></script>
+    <script src="testem.js"></script>
+    <script>
+      require('testember/tests/test-helper');
+    </script>
+    <script src="assets/test-loader.js"></script>
   </body>
 </html>

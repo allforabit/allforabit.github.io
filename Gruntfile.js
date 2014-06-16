@@ -41,6 +41,15 @@ module.exports = function(grunt) {
         files: '<%= jshint.lib_test.src %>',
         tasks: ['jshint:lib_test', 'qunit']
       }
+    },
+    git_deploy: {
+      all: {
+        options: {
+          url: 'git@github.com:allforabit/allforabit.github.io.git',
+          branch: 'master'
+        },
+        src: 'dist'
+      }
     }
   });
 
@@ -48,6 +57,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-git-deploy');
 
   // Default task.
   grunt.registerTask('default', ['jshint', 'qunit']);

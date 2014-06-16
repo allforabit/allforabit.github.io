@@ -1,6 +1,9 @@
-var Router = require('allforabit/router')['default'];
+/* global require */
 
-function startApp(attrs) {
+var Application = require('testember/app')['default'];
+var Router = require('testember/router')['default'];
+
+export default function startApp(attrs) {
   var App;
 
   var attributes = Ember.merge({
@@ -15,7 +18,7 @@ function startApp(attrs) {
   });
 
   Ember.run(function(){
-    App = require('allforabit/main')['default']('allforabit', attributes);
+    App = Application.create(attributes);
     App.setupForTesting();
     App.injectTestHelpers();
   });
@@ -24,5 +27,3 @@ function startApp(attrs) {
 
   return App;
 }
-
-export default startApp;
