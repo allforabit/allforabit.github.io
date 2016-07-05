@@ -12,7 +12,7 @@ Clipless is an experimental device that allows basic sequencing of effects in Ab
 #+CAPTION: Add the effect alongside the device that you want to sequence (reccomended as the best way to keep things organized although doesn't have be beside device)
 #+NAME:   Add device
 [[./img/place.png]]
-#+CAPTION: Move the sliders of the main view to create your basic arrangement. Each slider amount represents the a single bar. The values here are global across your project and is what will link events and changes across the project.
+#+CAPTION: Move the sliders of the main view to create your basic arrangement. Each slider amount represents a single bar. The values here are global across your project and is what will link events and changes across the project.
 #+NAME:   Main section of device
 [[./img/main.jpg]]
 #+Caption: Map your parameters using one or more of the bank of mappable parematers on the device. Change how each paremater maps up each section. 
