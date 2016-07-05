@@ -1,7 +1,8 @@
 #+SETUPFILE: ../../org-html-themes/setup/theme-readtheorg.setup
 #+TITLE: Clipless
-* Clipless
+
 Clipless is an experimental device that allows basic sequencing of effects in Ableton Live. Because of the abundance of generative devices, the idea is to explore complete song construction without using Ableton's primary means of doing this, clips.
+
 * Reasons to go Clipless
 - Clips add additional overhead and add an extra layer of complexity
 - As evidenced by many forum posts, there are some fundamental conceptual issues with clips that can lead to frustration
