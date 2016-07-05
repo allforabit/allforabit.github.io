@@ -1,0 +1,18 @@
+#+SETUPFILE: ../../org-html-themes/setup/theme-readtheorg.setup
+#+TITLE: "Abced minded" Video Diary
+
+* Video diary
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uG2nGXV1XaM" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
+* Notes
+The track is the result of experimenting with some alternative workflows in Ableton Live and max for live. During the production of this track I self imposed some constraints: I avoided using clips and only used max for live midi generating devices as well as max for live lfos to automate certain parameters. 
+
+It heavily uses the “Time and timbre” devices (https://www.ableton.com/en/packs/time-timbre-skinnerbox/) which allows for rhythmic exploration using concepts such as polyrhythms, polymeter and groove. This can be heard in particular in the kick drum and tom patterns. 
+
+Another constraint that I put on  my workflow was to keep the amount of musical content to a minimum and use extensive routing to tap these sources to add additional colour and interest. 
+
+While the constraints made the process a little awkward in certain regards it also forced me to think outside of the box both creatively and technically.
+
+To avoid using ableton’s clips I created a simple max for live device which I call “clipless”! The intention is to release this to the public for general usage. More details about clipless can be found here: http://allforabit.github.io/clipless
